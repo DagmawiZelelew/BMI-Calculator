@@ -24,7 +24,7 @@ submit.onclick= function(){
         response.textContent = `${ans.toFixed(2)}! Thats Overweight!`
    }
       else {
-        response.textContent = `${ans.toFixed(2)}! Thats Critical, Please Inform your local Doctors!`
+        response.textContent = `${ans.toFixed(2)}! Thats Obesity, Please Try to lose some weight!`
    }
 
 
