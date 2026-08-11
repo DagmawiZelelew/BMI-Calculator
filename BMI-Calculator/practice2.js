@@ -9,13 +9,13 @@ submit.onclick= function(){
     let usrheight = Number(height.value);
     ans = usrweight/usrheight**2;
     if(isNaN(ans)){
-     response.textContent = "Invalid Response!!!";   
+     response.textContent = "Invalid Response!";   
     }
     else if (usrheight<=0 || usrweight <=0 ){
-        response.textContent = `Invalid Response!!!`;
+        response.textContent = `Invalid Response!`;
     }
     else if (ans <18.5 ){
-        response.textContent = `${ans.toFixed(2)}! Thats Underweight.`
+        response.textContent = `${ans.toFixed(2)}! Thats Underweight!`
     }
       else if (ans >= 18.5 && ans <= 24.9 ){
         response.textContent = `${ans.toFixed(2)}! Thats Normal Weight, No worries!`
@@ -24,7 +24,7 @@ submit.onclick= function(){
         response.textContent = `${ans.toFixed(2)}! Thats Overweight!`
    }
       else {
-        response.textContent = `${ans.toFixed(2)}! Thats Obesity, Please Try to lose some weight!`
+        response.textContent = `${ans.toFixed(2)}! Thats Obesity(dont Panic, Its normal), Please Try to lose some weight!`
    }
 
 
