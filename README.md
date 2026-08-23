@@ -46,8 +46,4 @@ BMI-Calculator/
 
 **Dagmawi Zelelew**
 
-Software Engineering Student | Aspiring Full-Stack Web Developer
-
----
-
-⭐ If you found this project interesting, feel free to star the repository!
+Front-End Developer | Aspiring Full-Stack Web Developer
